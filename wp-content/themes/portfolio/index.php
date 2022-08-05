@@ -9,7 +9,26 @@
 </head>
 <body>
 <main class="main">
-
+    <div class="main__logo">
+        <img src="https://portfolio.test/wp-content/uploads/2022/08/Logo-3.svg"
+             alt="Logo du portfolio de Blanchar Senga-Vita">
+    </div>
+    <div class="main__title">
+        <h1 class="title__text hidden">
+            Blanchar Senga-Vita
+        </h1>
+        <img class="title__image"
+             src="https://portfolio.test/wp-content/uploads/2022/08/Blanchar-Senga-Vita-3.svg"
+             alt="écriture manuscrite de Blanchar Senga-Vita">
+    </div>
+    <div class="main__tagline">
+        <p class="tagline__text hidden">
+            Développeur web
+        </p>
+        <img class="tagline__image"
+             src="https://portfolio.test/wp-content/uploads/2022/08/developpeur-web-3.svg"
+             alt="écriture manuscrite de Développeur web">
+    </div>
     <nav class="main__nav nav">
         <ul class="nav__container">
             <li class="nav__item">
