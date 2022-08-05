@@ -7,30 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Le portfolio de Blanchar Senga-Vita</title>
 </head>
-<?php get_header() ?>
-
+<body>
 <main class="main">
-    <h1 class="main__title">
-        Blanchar Senga-Vita
-    </h1>
-    <p class="main__tagline">
-        Developpeur web
-    </p>
-    
+
     <nav class="main__nav nav">
         <ul class="nav__container">
-            <li class="nav__links">
-                <a href="">
-                    Me contacter
-                    <img src="" alt="">
+            <li class="nav__item">
+                <a href="https://portfolio.test/projets/"
+                   class="nav__link"
+                   title="Aller sur la page projet">
+                    <span class="link__text hidden">Voir mes projets</span>
+                    <img src="https://portfolio.test/wp-content/uploads/2022/08/voir-mes-projets-4.svg"
+                         alt="Écriture manuscrite du texte mes projets">
                 </a>
             </li>
-            <li class="nav__links">Voir mes projets</li>
-            <li class="nav__links">Á propos de moi</li>
+            <li class="nav__item">
+                <a href="https://portfolio.test/contact/"
+                   class="nav__link"
+                   title="Aller sur la page de contact">
+                    <span class="link_text hidden">Me contacter</span>
+                    <img src="https://portfolio.test/wp-content/uploads/2022/08/me-contacter-4.svg"
+                         alt="Écriture manuscrite du texte Me contactez">
+                </a>
+            </li>
+            <li class="nav__item">
+                <a href="https://portfolio.test/a-propos-de-moi/"
+                   class="nav__link"
+                   title="Aller sur la page à propos de moi">
+                    <span class="link__text hidden">À propos de moi</span>
+                    <img src="https://portfolio.test/wp-content/uploads/2022/08/à-propos-de-moi-2.svg"
+                         alt="Écriture manuscrite du texte À propos de moi">
+                </a>
+            </li>
         </ul>
     </nav>
-    
 </main>
-
 </body>
 </html>

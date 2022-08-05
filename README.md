@@ -1,1 +1,1 @@
-### I'm Blanchar Senga-Vita and THIS is my portfolio (i'm proud of this) 
+# I'm Blanchar Senga-Vita and this is my portfolio 
